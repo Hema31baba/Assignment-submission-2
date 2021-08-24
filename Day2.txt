@@ -1,0 +1,3 @@
+inp_str = "beautiful"
+out = {x : inp_str.count(x) for x in set(inp_str )} 
+print ("Occurrence of all characters in beautiful is :\n "+ str(out)) 
